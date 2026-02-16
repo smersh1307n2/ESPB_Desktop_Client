@@ -1,0 +1,158 @@
+﻿<Window x:Class="ESPB_Desktop_Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ESPB Desktop Client" Height="750" Width="950"
+        Background="#0f0f23" WindowStartupLocation="CenterScreen">
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Заголовок -->
+        <TextBlock Grid.Row="0" Text="ESPB Translation API Client" 
+                   FontSize="24" FontWeight="Bold" Foreground="White" Margin="0,0,0,20"/>
+        
+        <!-- API Settings - GroupBox -->
+        <GroupBox Grid.Row="1" Header="API Settings" Margin="0,0,0,15" Foreground="White" BorderBrush="#444">
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <TextBlock Grid.Column="0" Text="API Key:" Foreground="#aaaacc" VerticalAlignment="Center"/>
+                <PasswordBox Grid.Column="1" x:Name="ApiKeyBox" 
+                         Background="#1e1e3f" Foreground="White" BorderBrush="#444"
+                         Padding="5" Margin="0,0,10,5"/>
+                <Button Grid.Column="2" x:Name="SaveSettingsBtn" Content="Save" 
+                        Background="#4CAF50" Foreground="White" Padding="20,5"
+                        Click="SaveSettings_Click" VerticalAlignment="Center"/>
+                
+                <!-- Файл для сохранения -->
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Output File:" Foreground="#aaaacc" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="OutputFileTextBox" 
+                         Background="#1e1e3f" Foreground="White" BorderBrush="#444" IsReadOnly="True" Padding="5" Margin="0,0,10,0"/>
+                <Button Grid.Row="1" Grid.Column="2" Content="Browse..." Background="#444" Foreground="White" Padding="10,5"
+                        Click="BrowseOutputFile_Click"/>
+            </Grid>
+        </GroupBox>
+        
+        <!-- Input Files - GroupBox -->
+        <GroupBox Grid.Row="2" Header="Input Files" Margin="0,0,0,15" Foreground="White" BorderBrush="#444">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- BC файл -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="BC File:" Foreground="#aaaacc" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="BcFileTextBox" 
+                         Background="#1e1e3f" Foreground="White" BorderBrush="#444" IsReadOnly="True" Padding="5" Margin="0,0,10,0"/>
+                <Button Grid.Row="0" Grid.Column="2" Content="Browse..." Background="#444" Foreground="White" Padding="10,5"
+                        Click="BrowseBc_Click"/>
+                
+                <!-- Hints файл -->
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Hints File:" Foreground="#aaaacc" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="HintsFileTextBox" 
+                         Background="#1e1e3f" Foreground="White" BorderBrush="#444" IsReadOnly="True" Padding="5" Margin="0,10,10,0"/>
+                <Button Grid.Row="1" Grid.Column="2" Content="Browse..." Background="#444" Foreground="White" Padding="10,5" Margin="0,10,0,0"
+                        Click="BrowseHints_Click"/>
+                
+                <!-- IDF Symbol файл -->
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="IDF Symbols:" Foreground="#aaaacc" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="2" Grid.Column="1" x:Name="IdfFileTextBox" 
+                         Background="#1e1e3f" Foreground="White" BorderBrush="#444" IsReadOnly="True" Padding="5" Margin="0,10,10,0"/>
+                <Button Grid.Row="2" Grid.Column="2" Content="Browse..." Background="#444" Foreground="White" Padding="10,5" Margin="0,10,0,0"
+                        Click="BrowseIdf_Click"/>
+                
+                <!-- Custom Symbol файл -->
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Custom Symbols:" Foreground="#aaaacc" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="3" Grid.Column="1" x:Name="CustomFileTextBox" 
+                         Background="#1e1e3f" Foreground="White" BorderBrush="#444" IsReadOnly="True" Padding="5" Margin="0,10,10,0"/>
+                <Button Grid.Row="3" Grid.Column="2" Content="Browse..." Background="#444" Foreground="White" Padding="10,5" Margin="0,10,0,0"
+                        Click="BrowseCustom_Click"/>
+            </Grid>
+        </GroupBox>
+        
+        <!-- Лог и результат -->
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <GroupBox Grid.Column="0" Header="Translation Log" Margin="0,0,10,0" Foreground="White" BorderBrush="#444">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Clear Log" Background="#444" Foreground="White" 
+                            Padding="10,3" Margin="0,5,5,5" HorizontalAlignment="Left"
+                            Click="ClearLog_Click"/>
+                    <TextBox Grid.Row="1" x:Name="LogTextBox" Background="#0a0a1a" Foreground="#00ff88" 
+                             IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+                </Grid>
+            </GroupBox>
+            
+            <GroupBox Grid.Column="1" Header="Output" Foreground="White" BorderBrush="#444">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Status: " Foreground="#aaaacc"/>
+                        <TextBlock x:Name="StatusText" Text="Ready" Foreground="#888"/>
+                    </StackPanel>
+                    
+                    <TextBox Grid.Row="1" x:Name="OutputInfoTextBox" Background="#0a0a1a" Foreground="White" 
+                             IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        
+        <!-- Нижняя панель -->
+        <Grid Grid.Row="4" Margin="0,15,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <TextBlock Text="Remaining: " Foreground="#aaaacc" VerticalAlignment="Center"/>
+                <TextBlock x:Name="RemainingText" Text="-" Foreground="#4CAF50" VerticalAlignment="Center" FontWeight="Bold"/>
+                <TextBlock Text=" / " Foreground="#aaaacc" VerticalAlignment="Center"/>
+                <TextBlock x:Name="TotalText" Text="-" Foreground="White" VerticalAlignment="Center"/>
+            </StackPanel>
+            
+            <Button Grid.Column="1" x:Name="GetLimitsBtn" Content="Get Limits" 
+                    Background="#444" Foreground="White" Padding="20,10" Margin="0,0,10,0"
+                    Click="GetLimits_Click"/>
+            
+            <Button Grid.Column="2" x:Name="TranslateBtn" Content="Translate" 
+                    Background="#2196F3" Foreground="White" Padding="30,10"
+                    Click="Translate_Click"/>
+        </Grid>
+    </Grid>
+</Window>

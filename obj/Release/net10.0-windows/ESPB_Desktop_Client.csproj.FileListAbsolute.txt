@@ -1,0 +1,38 @@
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\MainWindow.baml
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\MainWindow.g.cs
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\App.g.cs
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client_MarkupCompile.cache
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.g.resources
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.AssemblyInfoInputs.cache
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.AssemblyInfo.cs
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.csproj.CoreCompileInputs.cache
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.exe
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.deps.json
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.runtimeconfig.json
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.pdb
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\refint\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.pdb
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.genruntimeconfig.cache
+C:\Andrey\Projects\VS_Code\ESPB_WEB_APP\ESPB_Desktop_Client\obj\Release\net10.0-windows\ref\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.exe
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.deps.json
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.runtimeconfig.json
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\bin\Release\net10.0-windows\ESPB_Desktop_Client.pdb
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\MainWindow.baml
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\MainWindow.g.cs
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\App.g.cs
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client_MarkupCompile.cache
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.g.resources
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.AssemblyInfoInputs.cache
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.AssemblyInfo.cs
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.csproj.CoreCompileInputs.cache
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\refint\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.pdb
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.genruntimeconfig.cache
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ref\ESPB_Desktop_Client.dll
