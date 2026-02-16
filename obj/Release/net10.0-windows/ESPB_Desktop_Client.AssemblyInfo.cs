@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Desktop client for ESPB Translation API")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbe7f3be2a01aade55ecb4bfaf1607e6d1e2460e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ESPB Desktop Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESPB_Desktop_Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

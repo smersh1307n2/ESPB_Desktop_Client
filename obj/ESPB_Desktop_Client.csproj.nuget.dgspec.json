@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj": {}
+    "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj": {}
   },
   "projects": {
-    "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj": {
+    "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
+        "projectUniqueName": "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
         "projectName": "ESPB_Desktop_Client",
-        "projectPath": "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
+        "projectPath": "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
         "packagesPath": "C:\\Users\\Smersh\\.nuget\\packages\\",
-        "outputPath": "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\obj\\",
+        "outputPath": "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

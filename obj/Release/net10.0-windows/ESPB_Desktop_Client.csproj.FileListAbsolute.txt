@@ -36,3 +36,4 @@ C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10
 C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.pdb
 C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.genruntimeconfig.cache
 C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ref\ESPB_Desktop_Client.dll
+C:\Andrey\Projects\VS_Code\ESPB PRODACTION\ESPB_Desktop_Client\obj\Release\net10.0-windows\ESPB_Desktop_Client.sourcelink.json

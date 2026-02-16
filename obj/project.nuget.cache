@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "34iHQbZj4RE=",
+  "dgSpecHash": "v7m1KwAwGtg=",
   "success": true,
-  "projectFilePath": "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
+  "projectFilePath": "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Smersh\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
@@ -11,9 +11,9 @@
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference System.Text.Json не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
-      "projectPath": "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
+      "projectPath": "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
       "warningLevel": 1,
-      "filePath": "c:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
+      "filePath": "C:\\Andrey\\Projects\\VS_Code\\ESPB PRODACTION\\ESPB_Desktop_Client\\ESPB_Desktop_Client.csproj",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net10.0-windows7.0"
