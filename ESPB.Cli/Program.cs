@@ -26,11 +26,11 @@ try
 {
     if (options.ContainsKey("limits"))
     {
-        using var response = await http.GetAsync($"{baseUrl}/limits");
-        var body = await response.Content.ReadAsStringAsync();
-        if (!response.IsSuccessStatusCode)
+        using var limitsResponse = await http.GetAsync($"{baseUrl}/limits");
+        var body = await limitsResponse.Content.ReadAsStringAsync();
+        if (!limitsResponse.IsSuccessStatusCode)
         {
-            Console.Error.WriteLine($"Limits request failed: {(int)response.StatusCode} {response.ReasonPhrase}\n{body}");
+            Console.Error.WriteLine($"Limits request failed: {(int)limitsResponse.StatusCode} {limitsResponse.ReasonPhrase}\n{body}");
             return 1;
         }
 
