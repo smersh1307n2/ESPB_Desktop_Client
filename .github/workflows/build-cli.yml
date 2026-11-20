@@ -1,0 +1,21 @@
+name: Build ESPB CLI
+
+on:
+  push:
+    branches:
+      - experiment/espb-cli-translator
+    paths:
+      - "ESPB.Cli/**"
+      - ".github/workflows/build-cli.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Build CLI
+        run: dotnet build ESPB.Cli/ESPB.Cli.csproj -c Release
